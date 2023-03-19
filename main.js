@@ -43,7 +43,7 @@ function gotResult(error, results)
         prediction_1 = results[0].label;
         prediction_2 = results[1].label;
         speak();
-        if(results[0].label == "best ")
+        if(results[0].label == "best")
         {
             document.getElementById("update_emoji").innerHTML = "&#128076;";
         }
@@ -56,7 +56,7 @@ function gotResult(error, results)
             document.getElementById("update_emoji").innerHTML = "&#9996;";
         }
 
-        if(results[0].label == "wave ")
+        if(results[0].label == "wave")
         {
             document.getElementById("update_emoji").innerHTML = "&#128400;";
         }
@@ -67,7 +67,7 @@ function gotResult(error, results)
 
 
 
-        if(results[1].label == "best ")
+        if(results[1].label == "best")
         {
             document.getElementById("update_emoji2").innerHTML = "&#128076;";
         }
@@ -80,7 +80,7 @@ function gotResult(error, results)
             document.getElementById("update_emoji2").innerHTML = "&#9996;";
         }
 
-        if(results[1].label == "wave ")
+        if(results[1].label == "wave")
         {
             document.getElementById("update_emoji2").innerHTML = "&#128400;";
         }
