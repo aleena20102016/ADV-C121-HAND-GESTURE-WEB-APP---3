@@ -56,7 +56,7 @@ function gotResult(error, results)
             document.getElementById("update_emoji").innerHTML = "&#9996;";
         }
 
-        if(results[0].label == "wave ")
+        if(results[0].label == "wave")
         {
             document.getElementById("update_emoji").innerHTML = "&#128400;";
         }
